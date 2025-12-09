@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fc"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f7fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g transform="translate(760,120)">
+    <rect width="360" height="560" rx="20" fill="url(#panel)" stroke="#e6eef9" />
+    <rect x="0" y="0" width="360" height="72" rx="20" fill="#0077d6" />
+    <text x="20" y="44" fill="#fff" font-size="16" font-family="Inter, Sans-serif" font-weight="600">DBT Connect Assistant</text>
+    <g transform="translate(20,92)">
+      <rect width="320" height="380" rx="12" fill="#fff" stroke="#eef6ff" />
+      <g transform="translate(12,12)">
+        <rect width="296" height="40" rx="10" fill="#eef7ff" />
+        <text x="16" y="26" fill="#0b1220" font-size="13" font-family="Inter, Sans-serif">Hello! I'm DBT Connect assistant. How can I help you today?</text>
+        <g transform="translate(0,62)">
+          <rect x="0" y="0" width="220" height="44" rx="12" fill="#0077d6" />
+          <text x="16" y="30" fill="#fff" font-size="13" font-family="Inter, Sans-serif">I can't upload my document</text>
+        </g>
+        <g transform="translate(0,118)">
+          <rect x="0" y="0" width="160" height="40" rx="12" fill="#eef6ff" />
+          <text x="14" y="26" fill="#0b1220" font-size="13" font-family="Inter, Sans-serif">Please check file size (max 10MB).</text>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(20,494)">
+      <rect width="320" height="56" rx="12" fill="#ffffff" stroke="#e6eef9" />
+      <text x="20" y="36" fill="#64748b" font-size="13" font-family="Inter, Sans-serif">Type your question...</text>
+    </g>
+  </g>
+  <!-- small dark-mode example -->
+  <g transform="translate(60,120)">
+    <rect width="360" height="560" rx="20" fill="#071026" stroke="#072038" />
+    <rect x="0" y="0" width="360" height="72" rx="20" fill="#003b66" />
+    <text x="20" y="44" fill="#e6f7ff" font-size="16" font-family="Inter, Sans-serif" font-weight="600">DBT Connect Assistant</text>
+    <g transform="translate(20,92)">
+      <rect width="320" height="380" rx="12" fill="#061426" stroke="#052036" />
+      <g transform="translate(12,12)">
+        <rect width="296" height="40" rx="10" fill="#05263e" />
+        <text x="16" y="26" fill="#e6f7ff" font-size="13" font-family="Inter, Sans-serif">नमस्ते! मैं DBT Connect सहायक हूँ। कैसे मदद करूँ?</text>
+        <g transform="translate(0,62)">
+          <rect x="0" y="0" width="220" height="44" rx="12" fill="#005a9a" />
+          <text x="16" y="30" fill="#e6f7ff" font-size="13" font-family="Inter, Sans-serif">फाइल अपलोड नहीं हो रहा</text>
+        </g>
+        <g transform="translate(0,118)">
+          <rect x="0" y="0" width="160" height="40" rx="12" fill="#06283d" />
+          <text x="14" y="26" fill="#9fbfdc" font-size="13" font-family="Inter, Sans-serif">कृपया फ़ाइल आकार जाँचें (10MB)</text>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(20,494)">
+      <rect width="320" height="56" rx="12" fill="#051222" stroke="#032036" />
+      <text x="20" y="36" fill="#9aa6b2" font-size="13" font-family="Inter, Sans-serif">संदेश लिखें...</text>
+    </g>
+  </g>
+</svg>

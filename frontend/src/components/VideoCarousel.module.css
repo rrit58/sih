@@ -1,0 +1,81 @@
+/* VideoCarousel.module.css */
+/* Horizontal scrollable carousel with arrow controls */
+
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Track - the horizontal scrollable container */
+.track {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0.5rem 2.5rem;
+  margin: 0 -2.5rem;
+  
+  /* Hide scrollbar for cleaner appearance */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.track::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Responsive gap and padding */
+@media (max-width: 640px) {
+  .track {
+    gap: 0.75rem;
+    padding: 0.5rem 2rem;
+    margin: 0 -2rem;
+  }
+}
+
+/* Arrow buttons */
+.arrowBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: white;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  color: #475569; /* slate-600 */
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.arrowBtn:hover {
+  background: #f1f5f9; /* slate-50 */
+  color: #2552d9; /* brand */
+  border-color: #cbd5e1; /* slate-300 */
+  box-shadow: 0 2px 4px rgba(16, 24, 40, 0.1);
+}
+
+.arrowBtn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.arrowBtn:focus {
+  outline: 2px solid #2552d9;
+  outline-offset: 2px;
+}
+
+/* Hide buttons on very small screens if needed */
+@media (max-width: 480px) {
+  .arrowBtn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.25rem;
+  }
+}

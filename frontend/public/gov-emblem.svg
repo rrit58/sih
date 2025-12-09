@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="100%" height="100%" fill="transparent"/>
+  <g transform="translate(20,20)">
+    <!-- simple emblem placeholder: stylized Ashoka-like column circle -->
+    <circle cx="40" cy="40" r="36" stroke="#0f172a" stroke-width="3" fill="white"/>
+    <path d="M40 18 C34 26, 34 54, 40 62 C46 54, 46 26, 40 18 Z" fill="#0f172a"/>
+    <rect x="26" y="74" width="28" height="10" fill="#0f172a" rx="2"/>
+
+    <!-- text to the right -->
+    <g transform="translate(90,10)">
+      <text x="0" y="18" font-family="Segoe UI, Roboto, Arial" font-size="22" font-weight="700" fill="#0f172a">Ministry of Social Justice and</text>
+      <text x="0" y="40" font-family="Segoe UI, Roboto, Arial" font-size="22" font-weight="700" fill="#0f172a">Empowerment</text>
+      <text x="0" y="64" font-family="Segoe UI, Roboto, Arial" font-size="16" fill="#0f172a">Government of India</text>
+    </g>
+  </g>
+</svg>

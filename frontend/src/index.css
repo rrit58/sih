@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #2552d9;
+}
+
+/* Common utility classes */
+.container-pad {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Reveal animation for cards */
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 420ms cubic-bezier(.2,.8,.2,1), transform 420ms cubic-bezier(.2,.8,.2,1);
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Cursor styles for draggable carousel */
+.cursor-grab {
+  cursor: grab;
+}
+.grabbing {
+  cursor: grabbing !important;
+}
